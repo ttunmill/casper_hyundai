@@ -1,0 +1,14 @@
+@media screen and (max-width : 1200px) {
+    header nav .gnb {display: none;}
+    header nav .snb li:first-child a {display: block;}
+}
+@media screen and (max-width : 1000px) {
+    main .content02 {flex-direction: column;}
+    main .content02 .con02_list {
+        margin-top: 20px;
+        width: 100%;
+    }
+    main .content03 {padding-top: 200px;}
+    main .content03 p:first-child{font-size: 10rem;}
+    main .content03 p:last-child img{width: 80%;}
+}
