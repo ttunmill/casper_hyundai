@@ -12,3 +12,8 @@
     main .content03 p:first-child{font-size: 10rem;}
     main .content03 p:last-child img{width: 80%;}
 }
+@media screen and (max-width: 800px) {
+    footer {flex-direction: column;}
+    footer address {width: 100%;}
+    footer address .ft_adr {flex-direction: column;}
+}
