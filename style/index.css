@@ -48,7 +48,7 @@ header nav .gnb > li .lnb {
     position: absolute;
     z-index: 900;
     overflow: hidden;
-    transition: all 0.2s;
+    transition: all 0.3s;
 }
 header nav .gnb > li .lnb li {}
 header nav .gnb > li .lnb li a {
