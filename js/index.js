@@ -14,3 +14,13 @@ nav_whith_bg.addEventListener("mouseout", ()=> {
         lnb[i].style.display = "none"
     }
 })
+
+
+//참고용
+/* gnb.forEach((obj, ind)=> {
+    obj.addEventListener("mouseover", () => {
+        subHide()
+        sub[ind].style.display = "block"
+    })
+    obj.addEventListener("mouseout", () => {subHide()})
+}) */
