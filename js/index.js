@@ -11,7 +11,7 @@ let lnb = document.querySelectorAll(".lnb")
 for(var i of lnb) {i.style.height = "0px"}
 gnb.forEach((i, j) => {
     i.addEventListener("mouseover", () => {
-        nav_whith_bg.style.height = "300px"
+        nav_whith_bg.style.height = "240px"
         for(var i of lnb) {i.style.height = "225px"}
     })
     nav_whith_bg.addEventListener("mouseout", () => {

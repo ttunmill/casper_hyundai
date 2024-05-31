@@ -24,7 +24,7 @@ header nav {
 }
 header nav .nav_whith_bg {
     position: absolute;
-    top: 0;
+    top: 70px;
     left: 0;
     background-color: #fff;
     width: 100%;
