@@ -35,27 +35,29 @@ header nav h1 {position: relative;}
 header nav .gnb {display: flex;}
 header nav .gnb > li {
     position: relative;
-    padding-right: 100px;
+    margin-right: 100px;
 }
+header nav .gnb > li:last-child {margin: 0;}
 header nav .gnb > li > a {
     display: block;
     line-height: 40px;
     font-weight: 700;
 }
 header nav .gnb > li .lnb {
-    width: 100%;
+    /* width: 100%; */
     top: 55px;
     position: absolute;
     z-index: 900;
     overflow: hidden;
     transition: all 0.3s;
 }
-header nav .gnb > li .lnb li {}
+header nav .gnb > li .lnb li {width: max-content;}
 header nav .gnb > li .lnb li a {
     display: inline-block;
     line-height: 30px;
+    font-size: 0.9rem;
 }
-header nav .gnb li .lnb li a img {width: 100%;}
+header nav .gnb li .lnb li a img {width: 170px;}
 header nav .snb {
     display: flex;
     position: relative;
